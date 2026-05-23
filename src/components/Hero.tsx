@@ -13,11 +13,11 @@ export function Hero({ onBookClick }: HeroProps) {
   const y = useTransform(scrollY, [0, 1000], ["0%", "30%"]);
 
   return (
-    <section className="relative h-screen min-h-[700px] flex flex-col md:flex-row bg-espresso-50 overflow-hidden">
+    <section className="relative min-h-screen md:h-screen flex flex-col md:flex-row bg-espresso-50 overflow-x-hidden">
       {/* Text Content */}
-      <div className="w-full md:w-[55%] flex items-center justify-center p-6 sm:p-12 lg:p-20 relative z-10 pt-32 md:pt-0">
+      <div className="w-full md:w-[55%] flex items-center justify-center p-6 sm:p-12 lg:p-20 relative z-10 pt-24 md:pt-0">
         <div 
-          className="max-w-xl w-full text-center md:text-left pt-20 md:pt-0"
+          className="max-w-xl w-full text-center md:text-left pt-12 md:pt-0"
         >
           <motion.div 
             initial={{ opacity: 0, scaleX: 0 }}

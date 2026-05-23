@@ -10,7 +10,7 @@ export default function App() {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
 
   return (
-    <div className="font-sans text-espresso-900 bg-white selection:bg-espresso-200 selection:text-espresso-900 relative">
+    <div className="font-sans text-espresso-900 bg-white selection:bg-espresso-200 selection:text-espresso-900 relative overflow-x-hidden w-full">
       <div className="fixed inset-0 pointer-events-none z-[999] bg-noise opacity-[0.03] mix-blend-multiply"></div>
       <Navbar onBookClick={() => setIsBookingOpen(true)} />
       <Hero onBookClick={() => setIsBookingOpen(true)} />

@@ -15,7 +15,7 @@ export function Hero({ onBookClick }: HeroProps) {
   return (
     <section className="relative h-screen min-h-[700px] flex flex-col md:flex-row bg-espresso-50 overflow-hidden">
       {/* Text Content */}
-      <div className="w-full md:w-[55%] flex items-center justify-center p-8 sm:p-12 lg:p-20 relative z-10 pt-32 md:pt-0">
+      <div className="w-full md:w-[55%] flex items-center justify-center p-6 sm:p-12 lg:p-20 relative z-10 pt-32 md:pt-0">
         <div 
           className="max-w-xl w-full text-center md:text-left pt-20 md:pt-0"
         >
@@ -64,7 +64,7 @@ export function Hero({ onBookClick }: HeroProps) {
             </MagneticButton>
           </motion.div>
 
-          <div className="flex items-center justify-center md:justify-start gap-10 text-espresso-800 border-t border-espresso-200/60 pt-8 mt-4">
+          <div className="flex items-center justify-center md:justify-start gap-6 sm:gap-10 text-espresso-800 border-t border-espresso-200/60 pt-8 mt-4">
             <a href={salonInfo.instagram} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-xs uppercase tracking-[0.15em] font-medium hover:text-espresso-500 transition-colors">
               <Instagram size={18} strokeWidth={1.5} className="group-hover:-translate-y-1 transition-transform duration-300" />
               <span>Instagram</span>

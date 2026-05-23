@@ -64,13 +64,13 @@ export function Hero({ onBookClick }: HeroProps) {
             </MagneticButton>
           </motion.div>
 
-          <div className="flex items-center justify-center md:justify-start gap-6 sm:gap-10 text-espresso-800 border-t border-espresso-200/60 pt-8 mt-4">
-            <a href={salonInfo.instagram} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-xs uppercase tracking-[0.15em] font-medium hover:text-espresso-500 transition-colors">
-              <Instagram size={18} strokeWidth={1.5} className="group-hover:-translate-y-1 transition-transform duration-300" />
+          <div className="flex flex-wrap items-center justify-center md:justify-start gap-x-8 gap-y-4 text-espresso-800 border-t border-espresso-200/60 pt-8 mt-4">
+            <a href={salonInfo.instagram} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-[10px] sm:text-xs uppercase tracking-[0.15em] font-medium hover:text-espresso-500 transition-colors">
+              <Instagram size={16} strokeWidth={1.5} className="group-hover:-translate-y-1 transition-transform duration-300" />
               <span>Instagram</span>
             </a>
-            <a href={salonInfo.maps} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-xs uppercase tracking-[0.15em] font-medium hover:text-espresso-500 transition-colors">
-              <MapPin size={18} strokeWidth={1.5} className="group-hover:-translate-y-1 transition-transform duration-300" />
+            <a href={salonInfo.maps} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-[10px] sm:text-xs uppercase tracking-[0.15em] font-medium hover:text-espresso-500 transition-colors">
+              <MapPin size={16} strokeWidth={1.5} className="group-hover:-translate-y-1 transition-transform duration-300" />
               <span>Location</span>
             </a>
           </div>
